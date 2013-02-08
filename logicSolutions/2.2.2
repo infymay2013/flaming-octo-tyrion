@@ -1,0 +1,30 @@
+Objective: 
+To develop pseudo code writing skills for a given problem using certain logic.
+
+
+Case study: An institution offers several programs. Each program has several courses. There
+are students who have opted for these courses. There are Educators who offer these courses.
+
+
+Problem 1: At a given point of time we need to allocate a course to an educator for a given
+period. Before allocating a course to an educator the following conditions are to be checked.
+1. Enough number of students have registered for the course
+AND
+2. The course is added into the educator’s skill set
+AND
+3. Educator’s calendar is free for the given period
+AND
+4. Educator is not on leave for the given period
+And
+5. Educator has not yet completed his delivery targets Or There is no other alternative
+
+
+1)input no_of_students, educators_skill_set, educators_free_calendar, educators_leave_list
+			,pending_works_for_educators
+2)if(no_of_students are reg for the course)
+3)	if(educators_skill_set contains the course name)
+4)		if(educators_free_calendar not conflicting with course date)
+5)			if(educators_leave_list doesn't fall on course date range)
+6)				if(no pending_works_for_educators)
+7)					/* THEN DO SOMETHING HERE*/
+8)end-if
